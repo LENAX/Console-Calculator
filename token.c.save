@@ -1,0 +1,32 @@
+#include "token.h"
+
+struct token_struct
+{
+    char *type;
+    char *str;
+};
+
+
+pToken CreateToken(const char *tk, const char *tg)
+{
+    pToken *ptk = malloc(sizeof(token_struct));
+    
+    token.type = tg;
+    token.str = tk;
+    return 
+}
+
+void DeleteToken(pToken T)
+{
+
+}
+
+char* PartToken(int startidx, int endidx)
+{
+
+}
+
+char lookahead(char *position)
+{
+
+}
