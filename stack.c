@@ -4,7 +4,7 @@
 #define EmptyTOS -1
 #define MinStackSize 5
 
-struct Stack
+struct StackRecord
 {
     int Capacity;
     int TopofStack;
@@ -27,14 +27,16 @@ int IsFull( Stk S)
         return 0;
 }
 
-Stack CreatStack(int MaxElements)
+Stack CreateStack(int MaxElements)
 {
     Stack S;
+
     if( MaxElements < MinStackSize) {
         printf("Stack is too small!");
         return 0;
     }
-    S= malloc(sizeof(struct Stack));
+
+    S= malloc(sizeof(struct StackRecord));
     if(S == NULL) {
         printf("Memory Error!");
         return 0;
@@ -73,10 +75,10 @@ ElementType Top( Stk S)
 {
     if(!IsEmpty(S))
         return S->Array[S->TopofStack];
-    else {
+    else
         return 0;
-    }
 }
+
 
 void Pop( Stk S)
 {

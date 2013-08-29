@@ -19,36 +19,13 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="Link list.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="lexi.c">
-			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="link list.c">
-			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="parse.c">
-			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
 		<Unit filename="stack.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="stack.h" />
-		<Unit filename="token.c">
-			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
-		<Unit filename="token.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />
